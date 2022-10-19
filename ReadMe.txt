@@ -18,14 +18,13 @@ l - disable orbit
 click - debug information for raytracing at point clicked
 
 To switch model, comment out the current "importOBJ" line, and uncomment the line which loads in the desired model.
+The two models are a Cornell Box and a sphere.
 
 The maximum number of reflections is bound by MAXDEPTH defined at the top of the file.
 
-The number of lights for soft shading is set in main, but will always round down to the nearest square number.
+The number of lights for soft shading is set in main, but will always rounded down to the nearest square number.
 
 The default renderer type is set in main.
 
 The models have specifications that are set in main.
-
-I changed "abs()" to "fabs()", but I haven't tested if my program works on Lab machines, sorry.
 
